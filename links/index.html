@@ -43,8 +43,15 @@
 
 <!-- 自定义样式保持在最底部 -->
 
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
+
+
+
 
 
 <body>
@@ -86,6 +93,15 @@
           
           
           <li class="nav-item">
+            <a class="nav-link" href="/messageboard/">
+              <i class="iconfont icon-archive-fill"></i>
+              留言板</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
             <a class="nav-link" href="/categories/">
               <i class="iconfont icon-category-fill"></i>
               分类</a>
@@ -107,6 +123,15 @@
             <a class="nav-link" href="/about/">
               <i class="iconfont icon-user-fill"></i>
               关于</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              友链</a>
           </li>
         
         
@@ -244,29 +269,6 @@
   
 
   
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"name","artist":"artist","url":"https://music.163.com/song/media/outer/url?id=400971154.mp3","cover":"https://i.loli.net/2020/04/21/C8rJgKAlw1njtL7.png"}]
-    });
-  }
-</script>
-
-  
 
   
 
@@ -303,6 +305,10 @@
 
 
 
+
+
+  
+<script src="/js/custom.js"></script>
 
 
 
@@ -448,4 +454,15 @@
 
 
 </body>
+<div id="dark" onclick="switchDarkMode()"></div>
+<script>
+  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";
+</script>
+
 </html>
