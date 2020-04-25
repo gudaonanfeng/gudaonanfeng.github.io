@@ -45,6 +45,8 @@
 
   
 <link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/css/music.css">
+<link rel="stylesheet" href="/css/dark.css">
 
 
 
@@ -55,6 +57,16 @@
 
 
 <body>
+  <div id="dark" onclick="switchDarkMode()"></div>
+<script>
+  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";
+</script>
   <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -94,7 +106,7 @@
           
           <li class="nav-item">
             <a class="nav-link" href="/messageboard/">
-              <i class="iconfont icon-archive-fill"></i>
+              <i class="iconfont icon-mail-fill"></i>
               留言板</a>
           </li>
         
@@ -258,6 +270,7 @@
 
   
 <script src="/js/custom.js"></script>
+<script src="/js/music.js"></script>
 
 
 
@@ -403,15 +416,5 @@
 
 
 </body>
-<div id="dark" onclick="switchDarkMode()"></div>
-<script>
-  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
-  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
-    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
-      document.body.classList.add('dark');
-    }
-  }
-  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";
-</script>
 
 </html>
