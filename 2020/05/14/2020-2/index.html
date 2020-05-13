@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>不想用百度云，那就教你自建属于自己的云盘！ | 小新在GitHub的新窝</title><meta name="description" content="不想用百度云，那就教你自建属于自己的云盘！"><meta name="keywords" content="私人云盘"><meta name="author" content="Fly Yi"><meta name="copyright" content="Fly Yi"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="不想用百度云，那就教你自建属于自己的云盘！"><meta name="twitter:description" content="不想用百度云，那就教你自建属于自己的云盘！"><meta name="twitter:image" content="https://i.loli.net/2020/05/14/tRJnBHZudKrY2Sy.jpg"><meta property="og:type" content="article"><meta property="og:title" content="不想用百度云，那就教你自建属于自己的云盘！"><meta property="og:url" content="http://yoursite.com/2020/05/14/2020-2/"><meta property="og:site_name" content="小新在GitHub的新窝"><meta property="og:description" content="不想用百度云，那就教你自建属于自己的云盘！"><meta property="og:image" content="https://i.loli.net/2020/05/14/tRJnBHZudKrY2Sy.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://yoursite.com/2020/05/14/2020-2/"><link rel="next" title="Linux指令大全！大大全！" href="http://yoursite.com/2020/05/13/2020-05-13/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isSidebar: true  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.0"></head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://thirdqq.qlogo.cn/g?b=sdk&amp;k=zzZgEDkUOXZXFbcNYLb0iaA&amp;s=100&amp;t=1589040609" onerror="onerror=null;src='https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 更多</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、前言"><span class="toc-number">1.</span> <span class="toc-text">一、前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、系统环境"><span class="toc-number">2.</span> <span class="toc-text">二、系统环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、工程部署"><span class="toc-number">3.</span> <span class="toc-text">三、工程部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-IDEA-配置FTP和上传代码"><span class="toc-number">3.1.</span> <span class="toc-text">1. IDEA 配置FTP和上传代码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-配置路径"><span class="toc-number">3.1.1.</span> <span class="toc-text">1.1 配置路径</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-上传文件"><span class="toc-number">3.1.2.</span> <span class="toc-text">1.2 上传文件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-云盘安装和配置"><span class="toc-number">3.2.</span> <span class="toc-text">2. 云盘安装和配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-服务安装"><span class="toc-number">3.2.1.</span> <span class="toc-text">2.1 服务安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-初始设置"><span class="toc-number">3.2.2.</span> <span class="toc-text">2.2 初始设置</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、云盘使用「分享书籍」"><span class="toc-number">4.</span> <span class="toc-text">四、云盘使用「分享书籍」</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-上传PDF书籍"><span class="toc-number">4.1.</span> <span class="toc-text">1. 上传PDF书籍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-设置外链"><span class="toc-number">4.2.</span> <span class="toc-text">2. 设置外链</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-分享链接-阅读原文直达"><span class="toc-number">4.3.</span> <span class="toc-text">3. 分享链接(阅读原文直达)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五、总结"><span class="toc-number">5.</span> <span class="toc-text">五、总结</span></a></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div class="post-bg" id="nav" style="background-image: url(https://i.loli.net/2020/05/14/tRJnBHZudKrY2Sy.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">小新在GitHub的新窝</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 更多</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">不想用百度云，那就教你自建属于自己的云盘！</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-05-14 02:03:20"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-05-14</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-05-14 02:05:00"><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-14</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-comment-o" aria-hidden="true"></i><span>评论数:</span><a href="/2020/05/14/2020-2/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2020/05/14/2020-2/" itemprop="commentCount"></span></a></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/tRJnBHZudKrY2Sy.jpg"  alt="img"></p>
+<blockquote>
+<p>沉淀、分享、成长，让自己和他人都能有所收获！😄</p>
+</blockquote>
+<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p><em>本篇文章只介绍如何自建云盘，不剐蹭任何云服务。</em></p>
+<p>在技术学习的路上经常与同好交流心得，时而分享一些技术的PDF书籍。但也经常发现即使是一些可以开源的书籍，分享出来的链接也常常遇到链接失效问题。</p>
+<p>尤其是最近希望把看过的一些不错的技术书籍和伙伴的推荐的一起汇总，并附上简单的书评和推荐指数。分享给新人在学习的过程中多有一些干货的内容。同时在一些需要付费的书籍上，也会引导购买纸质书籍。给创作者一份回报，也让自己可以更加方便的阅读。</p>
+<p>但在做这件事的时候，经常遇到分享的链接过一会就失效，同时预览效果也不是很好，不能随开随读。所以就萌生了，构建自己的云盘。</p>
+<hr>
+<p>在折腾之前，我是有一些积累的，比如我有一个终身免费的海外云虚拟机，可用部署PHP、ASP项目。所以经常会在上面做一些实验，确定可用后在考虑付费去购买部署备案。不得已不谨慎，否则就是成本！</p>
+<p>在这个过程中，我先是考虑PHP有CMS内容管理系统，测试后并不能满足我的需求。接下来就反复更换关键词搜索到了；可道云 - kodcloud.com。这是一款基于PHP开发的私有云存储&amp;协同办公服务，同时可以在本地下载软件管理自建的云盘服务。好，这些我就不多介绍了，可以自行从官网查看。下面先上一张图，让你感受下；</p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/O1P9J837lhXqC2N.png"  alt=""></p>
+<ul>
+<li><p>初次部署使用后，被这个页面震住了，竟然如此强大。</p>
+</li>
+<li><p>有一个完整的桌面系统，支持企业级使用，可以建立组织关系。<code>甚至你可以任意调整桌面背景</code>，功能很好。</p>
+</li>
+<li><p>可以分享文件成链接，支持设置隐私级别，与其他云盘功能一致。且对浏览PDF效果很理想，可以在线阅读。</p>
+</li>
+<li><p>另外，有免费版！免费版就是你不要通过代码去改一些显示内容，否则会提示升级到付费版本。</p>
+</li>
+</ul>
+<p><strong>好！</strong> 那么接下来，就教你如何去部署这样一款自己的云服务。</p>
+<h2 id="二、系统环境"><a href="#二、系统环境" class="headerlink" title="二、系统环境"></a>二、系统环境</h2><ol>
+<li>PHP云虚拟机，也可以部署到本地。php 5.3及以上另外使用 php7.3，开启缓存效果更佳。</li>
+<li>mysql 5.7，或者sqlite。如果有Redis服务，还可以支持缓存。</li>
+<li>IDEA，Java开发同学比较喜欢。主要用在FTP功能，非常方便管理。</li>
+<li>Github代码：<a href="https://github.com/kalcaddle/KodExplorer" target="_blank" rel="noopener">https://github.com/kalcaddle/KodExplorer</a></li>
+<li>官网下载：<a href="https://kodcloud.com/download/" target="_blank" rel="noopener">https://kodcloud.com/download/</a></li>
+</ol>
+<h2 id="三、工程部署"><a href="#三、工程部署" class="headerlink" title="三、工程部署"></a>三、工程部署</h2><p><em>本文中使用了到云虚拟机的方式进行部署，支持PHP的虚拟机一般会自带数据库服务。只需要把代码上传进去后，打开域名即会提示安装，按照步骤执行即可。</em></p>
+<p>使用IDEA打开下载后的 PHP 云盘工程，如果你安装了PHP版本IDEA开发工具，也可以。</p>
+<h3 id="1-IDEA-配置FTP和上传代码"><a href="#1-IDEA-配置FTP和上传代码" class="headerlink" title="1. IDEA 配置FTP和上传代码"></a>1. IDEA 配置FTP和上传代码</h3><p>在IDEA中有一个非常牛的功能，就是可以配置；FTP、FTPS、SFTP。这样就可以在开发的过程，直接将代码上传到虚拟机云服务中。</p>
+<h4 id="1-1-配置路径"><a href="#1-1-配置路径" class="headerlink" title="1.1 配置路径"></a>1.1 配置路径</h4><p><code>Tools -&gt; Deployment -&gt; Configuration</code> - 按照路径找到后填写ftp链接信息。</p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/a6MEwIxvUfkYtg5.png"  alt=""></p>
+<h4 id="1-2-上传文件"><a href="#1-2-上传文件" class="headerlink" title="1.2 上传文件"></a>1.2 上传文件</h4><p>配置好路径后，就可以打开FTP服务。在工程中点击上传文件即可。</p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/IQUtCWoxRsMlXOE.png"  alt=""></p>
+<h3 id="2-云盘安装和配置"><a href="#2-云盘安装和配置" class="headerlink" title="2. 云盘安装和配置"></a>2. 云盘安装和配置</h3><p>安装过程非常简单，只要打开我们的云虚拟机配置的域名，进行访问即可。他会提示你按照步骤进行按照，你只需要准备好PHP版本、数据库<code>用户名</code>、<code>密码</code>即可。</p>
+<h4 id="2-1-服务安装"><a href="#2-1-服务安装" class="headerlink" title="2.1 服务安装"></a>2.1 服务安装</h4><p><strong>环境检测</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/JdIzgi8BvEHxNAM.png"  alt=""></p>
+<p><strong>数据库设置</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/yUQlqgKAw8VFX56.png"  alt=""></p>
+<p><strong>安装完成</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/pikMCa3D6J2XQy1.png"  alt=""></p>
+<h4 id="2-2-初始设置"><a href="#2-2-初始设置" class="headerlink" title="2.2 初始设置"></a>2.2 初始设置</h4><p>按照执行步骤安装完成后，现在就可以使用了。整体的页面功能也非常简单易操作。如果你有一些其他需要也可以在<strong>桌面</strong>进行设置。</p>
+<p><strong>名称信息</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/6TGYK8JubwASC1D.png"  alt=""></p>
+<p><strong>资源上传</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/kZCure36b8NRJDy.png"  alt=""></p>
+<p><strong>扩展功能</strong></p>
+<p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/4C62VkS8b9fHcWA.png"  alt=""></p>
+<p><strong>到这</strong>，我们的自己的云盘就已经安装好了，那么接下来就可以进行使用了。😺开心！</p>
+<h2 id="四、云盘使用「分享书籍」"><a href="#四、云盘使用「分享书籍」" class="headerlink" title="四、云盘使用「分享书籍」"></a>四、云盘使用「分享书籍」</h2><p>如果分享书籍有任何涉及网络不可传播，随时删除！</p>
+<h3 id="1-上传PDF书籍"><a href="#1-上传PDF书籍" class="headerlink" title="1. 上传PDF书籍"></a>1. 上传PDF书籍</h3><p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/PWt7FK6mUBJLOyA.png"  alt=""></p>
+<ul>
+<li>上传的过程非常简单，还可以批量上传。具体速度取决于你的云服务。</li>
+</ul>
+<h3 id="2-设置外链"><a href="#2-设置外链" class="headerlink" title="2. 设置外链"></a>2. 设置外链</h3><p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/74kBbid8Qevxyqa.png"  alt=""></p>
+<p>分享外链可以设置的功能非常多；</p>
+<ul>
+<li>是否设置提取码</li>
+<li>标题修改</li>
+<li>可见用户权限</li>
+<li>到期时间</li>
+<li>下载次数和禁止下载</li>
+</ul>
+<h3 id="3-分享链接-阅读原文直达"><a href="#3-分享链接-阅读原文直达" class="headerlink" title="3. 分享链接(阅读原文直达)"></a>3. 分享链接(阅读原文直达)</h3><p><img src="https://i.loli.net/2020/04/25/DdmFHMwVW5ETsnI.gif" class="lazyload" data-src="https://i.loli.net/2020/05/14/xT8cILQO4k7zGFj.png"  alt="CodeGuide 程序员编码指南，一波提升编程技能格调的19本书籍"></p>
+<h2 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h2><ul>
+<li>技术总是能让生活越来越美好，永远不要局限在自己的小窝里去点评一件你尚未了解清楚的事情。</li>
+<li>个人建造云盘在号主、学校、社团、小企业中都有一定的用武之地，自行体会建设。可能你不知道的事情总在创造价值。</li>
+<li>如果你说这是<code>PHP</code>的，不要在意语言！所有的技术都是为了产品服务于业务，用于承载多样性用户行为数据的。</li>
+</ul>
+<p>本文非原创，原文地址<a href="https://blog.csdn.net/generalfu/article/details/106041066?utm_medium=distribute.pc_feed.none-task-blog-alirecmd-19.nonecase&depth_1-utm_source=distribute.pc_feed.none-task-blog-alirecmd-19.nonecase&request_id=" target="_blank" rel="noopener">CSDN</a></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Fly Yi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://yoursite.com/2020/05/14/2020-2/">http://yoursite.com/2020/05/14/2020-2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yoursite.com" target="_blank">小新在GitHub的新窝</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/">私人云盘</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/14/tRJnBHZudKrY2Sy.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付寶"/><div class="post-qr-code__desc">支付寶</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/05/13/2020-05-13/"><img class="next_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/gudaonanfeng/pic/20200514001127.png" onerror="onerror=null;src='https://i.loli.net/2020/04/25/t3xo2jPrfiNF7KQ.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Linux指令大全！大大全！</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify: false,
+  verify: false,
+  appId: 'GX2Gdr5QNNVNbgDmx1B7me8p-gzGzoHsz',
+  appKey: 'TJe2woKtEyFRgMjs52fIhgpw',
+  placeholder: 'Please leave your footprints',
+  avatar: 'monsterid',
+  meta: guest_info,
+  pageSize: '10',
+  lang: 'en',
+  recordIP: false,
+  serverURLs: ''
+});</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Fly Yi</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script></body></html>
