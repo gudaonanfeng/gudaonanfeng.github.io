@@ -125,7 +125,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #00c4b6;
+  background: #000080;
   color: #f7f7f7;
 }
 #nav #site_title,
@@ -2207,7 +2207,7 @@ blockquote footer cite:before {
 }
 #footer {
   position: relative;
-  background: #3c40c6;
+  background: transparent;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -2224,7 +2224,7 @@ blockquote footer cite:before {
 #footer-wrap {
   position: relative;
   padding: 2rem 1rem;
-  color: #eee;
+  color: $light-green;
   text-align: center;
 }
 #footer-wrap a {
@@ -2374,7 +2374,7 @@ blockquote footer cite:before {
   transition: all 0.3s ease-out;
 }
 #nav.post-bg #post-info #post-meta a:hover {
-  color: #3c40c6;
+  color: $laurel-green;
   text-decoration: underline;
 }
 #page-header {
@@ -3237,7 +3237,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #000080;
   color: #fff;
   cursor: default;
 }
@@ -3982,15 +3982,15 @@ img {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .sidebar-toc .toc-link.active {
-  border-right-color: #009d92;
-  background: #00c4b6;
+  border-right-color: #006;
+  background: #000080;
   color: #fff;
 }
 #sidebar .sidebar-toc__progress {
   position: relative;
   margin-bottom: 0.3rem;
   padding-left: 0.6rem;
-  color: #00c4b6;
+  color: #000080;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
@@ -4002,7 +4002,7 @@ img {
 #sidebar .sidebar-toc__progress-bar {
   width: 0;
   height: 1px;
-  background: #00c4b6;
+  background: #000080;
 }
 @media screen and (max-width: 1024px) {
   i#toggle-sidebar {
