@@ -4488,14 +4488,14 @@ figure.gallery-group .gallery-group-name:after {
 }
 [data-theme='dark'] #web_bg[data-type=color],
 [data-theme='dark'] #footer[data-type=color] {
-  background: #0d0d0d;
+  background: rgba(0,0,0,0);
 }
 [data-theme='dark'] #web_bg[data-type=photo]:before,
 [data-theme='dark'] #footer[data-type=photo]:before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(18,18,18,0.5);
   content: '';
 }
 [data-theme='dark'] #nav,
