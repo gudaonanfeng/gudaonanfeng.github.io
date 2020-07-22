@@ -18,7 +18,7 @@ body {
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3c40c6;
+  background: #747d8c;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
@@ -28,7 +28,7 @@ body {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url("https://cdn.jsdelivr.net/gh/gudaonanfeng/pic/20200601172512.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/gudaonanfeng/pic/20200722122732.jpg");
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -77,7 +77,7 @@ hr {
   position: relative;
   margin: 2rem auto;
   width: calc(100% - 4px);
-  border: 2px dashed #9d9fe2;
+  border: 2px dashed #babec6;
 }
 hr:hover:before {
   left: calc(95% - 20px);
@@ -87,7 +87,7 @@ hr:before {
   top: -10px;
   left: 5%;
   z-index: 1;
-  color: #3c40c6;
+  color: #747d8c;
   content: '\f0c4';
   font-style: normal;
   font-variant: normal;
@@ -125,7 +125,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #000080;
+  background: #747d8c;
   color: #f7f7f7;
 }
 #nav #site_title,
@@ -1842,7 +1842,7 @@ blockquote footer cite:before {
   position: relative;
   z-index: 1;
   display: block;
-  background-color: #3c40c6;
+  background-color: #747d8c;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.6rem;
@@ -1865,7 +1865,7 @@ blockquote footer cite:before {
   padding: 0 0.1rem;
 }
 #aside_content .card-tag-cloud a:hover {
-  color: #3c40c6 !important;
+  color: #747d8c !important;
 }
 #aside_content .card-recent-post .aside-recent-item {
   margin: 10px 0 -15px;
@@ -1918,7 +1918,7 @@ blockquote footer cite:before {
   -webkit-box-orient: vertical;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title .aside-post_title:hover {
-  color: #3c40c6 !important;
+  color: #747d8c !important;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title.no-aside-cover .aside-post_title {
   height: auto;
@@ -1942,7 +1942,7 @@ blockquote footer cite:before {
 #aside_content .card-archives ul.card-archive-list > .card-archive-list-item:hover,
 #aside_content .card-categories ul.card-category-list > .card-category-list-item:hover {
   padding: 0.15rem 0.85rem;
-  background-color: #3c40c6;
+  background-color: #747d8c;
 }
 #aside_content .card-archives ul.card-archive-list > .card-archive-list-item a,
 #aside_content .card-categories ul.card-category-list > .card-category-list-item a {
@@ -2055,7 +2055,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3c40c6;
+  background: #747d8c;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
@@ -2083,7 +2083,7 @@ blockquote footer cite:before {
   margin-left: 0.45rem;
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #3c40c6;
+  border: 0.15rem solid #747d8c;
   border-radius: 0.3rem;
   background: transparent;
   content: '';
@@ -2125,7 +2125,7 @@ blockquote footer cite:before {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: #3c40c6;
+  background: #747d8c;
   content: '';
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
@@ -2232,7 +2232,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #footer-wrap a:hover {
-  color: #3c40c6;
+  color: #747d8c;
   text-decoration: underline;
 }
 #footer-wrap .footer-separator {
@@ -2245,7 +2245,7 @@ blockquote footer cite:before {
 #nav {
   position: relative;
   width: 100%;
-  background-color: #3c40c6;
+  background-color: #747d8c;
   background-attachment: local;
   background-position: center center;
   -webkit-background-size: cover;
@@ -2437,7 +2437,7 @@ blockquote footer cite:before {
 #page-header.fixed a:hover,
 #page-header.fixed #site-name:hover,
 #page-header.fixed .toggle-menu:hover {
-  color: #3c40c6;
+  color: #747d8c;
 }
 #page-header.visible {
   -webkit-transition: all 0.5s;
@@ -2497,7 +2497,7 @@ blockquote footer cite:before {
   z-index: -1;
   width: 0;
   height: 3px;
-  background-color: #7679d7;
+  background-color: #9ea4af;
   content: '';
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2536,7 +2536,7 @@ blockquote footer cite:before {
   list-style: none;
 }
 #page-header .menus_items .menus_item .menus_item_child li:hover {
-  background: #3c40c6;
+  background: #747d8c;
 }
 #page-header .menus_items .menus_item .menus_item_child li a {
   display: inline-block;
@@ -2707,7 +2707,7 @@ blockquote footer cite:before {
   width: 70%;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items span:hover {
-  color: #3c40c6;
+  color: #747d8c;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items .menus-expand {
   position: absolute;
@@ -2874,7 +2874,7 @@ blockquote footer cite:before {
   -webkit-line-clamp: 2;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
-  color: #3c40c6 !important;
+  color: #747d8c !important;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   font-size: 95%;
@@ -2905,7 +2905,7 @@ blockquote footer cite:before {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a.article-meta__categories:hover,
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a.article-meta__tags:hover {
-  color: #3c40c6 !important;
+  color: #747d8c !important;
   text-decoration: underline;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .content {
@@ -2965,7 +2965,7 @@ blockquote footer cite:before {
 .article-sort {
   margin-left: 0.5rem;
   padding-left: 1rem;
-  border-left: 2px solid #8b8ddd;
+  border-left: 2px solid #acb1ba;
 }
 .article-sort-title {
   position: relative;
@@ -2985,7 +2985,7 @@ blockquote footer cite:before {
   z-index: 1;
   width: 0.5rem;
   height: 0.5rem;
-  border: 0.25rem solid #3c40c6;
+  border: 0.25rem solid #747d8c;
   border-radius: 0.5rem;
   background: #fff;
   content: '';
@@ -3003,7 +3003,7 @@ blockquote footer cite:before {
   z-index: 0;
   width: 0.1rem;
   height: 1.3rem;
-  background: #8b8ddd;
+  background: #acb1ba;
   content: '';
 }
 .article-sort-item {
@@ -3026,7 +3026,7 @@ blockquote footer cite:before {
   left: calc(-1rem - 17px);
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #3c40c6;
+  border: 0.15rem solid #747d8c;
   border-radius: 0.3rem;
   background: #fff;
   content: '';
@@ -3066,7 +3066,7 @@ blockquote footer cite:before {
   font-size: 1rem;
 }
 .article-sort-item.year:hover:before {
-  border-color: #3c40c6;
+  border-color: #747d8c;
 }
 .article-sort-item.year:before {
   top: 0.7rem;
@@ -3090,7 +3090,7 @@ blockquote footer cite:before {
   -webkit-box-orient: vertical;
 }
 .article-sort-item__title:hover {
-  color: #3c40c6 !important;
+  color: #747d8c !important;
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   -o-transform: translateX(20px);
@@ -3237,7 +3237,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #000080;
+  background: #747d8c;
   color: #fff;
   cursor: default;
 }
@@ -3354,7 +3354,7 @@ a {
   overflow-wrap: break-word;
 }
 a:hover {
-  color: #3c40c6;
+  color: #747d8c;
 }
 a.fancybox {
   outline: none;
@@ -3466,9 +3466,9 @@ img {
   margin: 0.4rem 0.4rem 0.4rem 0;
   padding: 0 0.6rem;
   width: fit-content;
-  border: 1px solid #3c40c6;
+  border: 1px solid #747d8c;
   border-radius: 0.6rem;
-  color: #3c40c6;
+  color: #747d8c;
   font-size: 12px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3478,7 +3478,7 @@ img {
   transition: all 0.2s ease-in-out;
 }
 .layout_post .tag_share .post-meta__tags:hover {
-  background: #3c40c6;
+  background: #747d8c;
   color: #fff;
 }
 .layout_post .tag_share .post_share {
@@ -3515,7 +3515,7 @@ img {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 0.8rem;
-  background: #3c40c6;
+  background: #747d8c;
   content: '';
 }
 .layout_post .post-copyright:after {
@@ -3533,7 +3533,7 @@ img {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 .layout_post .post-copyright .post-copyright-meta {
-  color: #3c40c6;
+  color: #747d8c;
   font-weight: bold;
 }
 .layout_post .post-copyright .post-copyright-info {
@@ -3547,7 +3547,7 @@ img {
   text-decoration: none;
 }
 #article-container a {
-  color: #3c40c6;
+  color: #747d8c;
 }
 #article-container a:hover {
   text-decoration: underline;
@@ -3669,7 +3669,7 @@ img {
   z-index: 1;
   display: inline-block;
   width: 100px;
-  background: #3c40c6;
+  background: #747d8c;
   color: #fff;
   text-align: center;
   line-height: 36px;
@@ -3783,7 +3783,7 @@ img {
   margin-bottom: 2px;
   width: 30px;
   height: 30px;
-  background-color: #3c40c6;
+  background-color: #747d8c;
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -3982,15 +3982,15 @@ img {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .sidebar-toc .toc-link.active {
-  border-right-color: #006;
-  background: #000080;
+  border-right-color: #5d6470;
+  background: #747d8c;
   color: #fff;
 }
 #sidebar .sidebar-toc__progress {
   position: relative;
   margin-bottom: 0.3rem;
   padding-left: 0.6rem;
-  color: #000080;
+  color: #747d8c;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
@@ -4002,7 +4002,7 @@ img {
 #sidebar .sidebar-toc__progress-bar {
   width: 0;
   height: 1px;
-  background: #000080;
+  background: #747d8c;
 }
 @media screen and (max-width: 1024px) {
   i#toggle-sidebar {
@@ -4029,7 +4029,7 @@ img {
 #vcomment button {
   padding: 0.3rem 0.8rem;
   border-color: #fff;
-  background-color: #3c40c6;
+  background-color: #747d8c;
   color: #fff;
   font-size: 0.7rem;
   -webkit-transition: all 0.3s;
@@ -4057,9 +4057,9 @@ img {
 }
 #vcomment .vat {
   padding: 0 0.8rem;
-  border: 1px solid #3c40c6;
+  border: 1px solid #747d8c;
   border-radius: 5px;
-  color: #3c40c6;
+  color: #747d8c;
   font-size: 0.7125rem;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -4068,7 +4068,7 @@ img {
   transition: all 0.3s;
 }
 #vcomment .vat:hover {
-  background-color: #3c40c6;
+  background-color: #747d8c;
   color: #fff;
 }
 .fireworks {
@@ -4287,7 +4287,7 @@ figure.gallery-group .gallery-group-name:after {
   z-index: 1;
   display: inline-block;
   padding: 0 1rem;
-  background: #3c40c6;
+  background: #747d8c;
   color: #fff !important;
   text-align: center;
   cursor: pointer;
