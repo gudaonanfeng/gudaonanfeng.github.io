@@ -225,7 +225,7 @@ button {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: #474787;
+  background: #747d8c;
   content: '';
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
@@ -2089,7 +2089,7 @@ blockquote footer cite:before {
   line-height: 1.2rem;
 }
 .category-content ul li:hover:before {
-  border-color: #474787;
+  border-color: #747d8c;
 }
 .category-content ul li:before {
   top: 10px;
@@ -2853,7 +2853,7 @@ _:future,
   color: #858585;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .sticky {
-  color: #474787;
+  color: #747d8c;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap i {
   margin: 0 0.2rem 0 0;
@@ -2891,7 +2891,7 @@ _:future,
   transition: all 0.3s;
 }
 .tag-cloud a:hover {
-  color: #474787 !important;
+  color: #747d8c !important;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -2940,7 +2940,7 @@ _:future,
   line-height: 1;
 }
 .article-sort-title:hover:before {
-  border-color: #474787;
+  border-color: #747d8c;
 }
 .article-sort-title:before {
   position: absolute;
@@ -2982,7 +2982,7 @@ _:future,
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #474787;
+  border-color: #747d8c;
 }
 .article-sort-item:before {
   position: absolute;
@@ -3034,7 +3034,7 @@ _:future,
 }
 .article-sort-item.year:before {
   top: 0.7rem;
-  border-color: #474787;
+  border-color: #747d8c;
 }
 .article-sort-item__time {
   padding-left: 0.4rem;
@@ -3566,8 +3566,8 @@ img {
   transition: all 0.4s;
 }
 .post-reward .reward-button:hover {
-  -webkit-box-shadow: inset 9em 0 0 0 #474787;
-  box-shadow: inset 9em 0 0 0 #474787;
+  -webkit-box-shadow: inset 9em 0 0 0 #747d8c;
+  box-shadow: inset 9em 0 0 0 #747d8c;
 }
 .post-reward .reward-button:hover .reward-main {
   display: block;
@@ -3683,7 +3683,7 @@ img {
 }
 #rightside > div > button:hover,
 #rightside > div > a:hover {
-  background-color: #474787;
+  background-color: #747d8c;
 }
 #rightside #rightside_config i {
   -webkit-animation: avatar_turn_around 2s linear infinite;
@@ -3929,7 +3929,7 @@ img {
   transition: all 0.3s;
 }
 #vcomment button:hover {
-  background-color: #474787;
+  background-color: #747d8c;
 }
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
