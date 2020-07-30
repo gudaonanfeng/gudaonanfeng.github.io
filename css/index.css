@@ -5247,6 +5247,7 @@ blockquote.pullquote.right {
   background: rgba(255,255,255,0.9);
 }
 @font-face {
+  font-display: swap;
   font-family: 'sleek';
   src: url("https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2");
 }
