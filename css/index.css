@@ -3345,6 +3345,9 @@ blockquote footer cite:before {
 #footer-wrap a:hover {
   text-decoration: underline;
 }
+#footer-wrap img {
+  vertical-align: text-top;
+}
 #footer-wrap .footer-separator {
   margin: 0 0.2rem;
 }
