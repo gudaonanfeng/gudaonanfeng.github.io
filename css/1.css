@@ -5,6 +5,14 @@
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
 
+/* 圆形图片 */
+.img_yuan {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 /* --------------------------------------------------------------------- */
 /* 网页背景色，红蓝渐变 */
 
