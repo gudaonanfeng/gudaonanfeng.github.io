@@ -3,11 +3,11 @@
   <title>XIN.</title>
   <icon>https://cdn.jsdelivr.net/gh/gudaonanfeng/Hexo/Pic/log1.png</icon>
   
-  <link href="https://hexo.flyyi.top/atom.xml" rel="self"/>
+  <link href="https://www.trann.cn/atom.xml" rel="self"/>
   
-  <link href="https://hexo.flyyi.top/"/>
+  <link href="https://www.trann.cn/"/>
   <updated>2020-09-11T16:54:29.029Z</updated>
-  <id>https://hexo.flyyi.top/</id>
+  <id>https://www.trann.cn/</id>
   
   <author>
     <name>Fly Yi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>面对jsDelivr禁止用作图床，我们将何去何从？</title>
-    <link href="https://hexo.flyyi.top/2020/09/11/zijiantuchuang/"/>
-    <id>https://hexo.flyyi.top/2020/09/11/zijiantuchuang/</id>
+    <link href="https://www.trann.cn/2020/09/11/zijiantuchuang/"/>
+    <id>https://www.trann.cn/2020/09/11/zijiantuchuang/</id>
     <published>2020-09-11T06:11:22.000Z</published>
     <updated>2020-09-11T16:54:29.029Z</updated>
     
@@ -34,23 +34,23 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="推荐" scheme="https://hexo.flyyi.top/tags/%E6%8E%A8%E8%8D%90/"/>
+    <category term="推荐" scheme="https://www.trann.cn/tags/%E6%8E%A8%E8%8D%90/"/>
     
-    <category term="图床" scheme="https://hexo.flyyi.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="图床" scheme="https://www.trann.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
-    <category term="分享" scheme="https://hexo.flyyi.top/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="分享" scheme="https://www.trann.cn/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>主题升级日志</title>
-    <link href="https://hexo.flyyi.top/2020/09/10/910/"/>
-    <id>https://hexo.flyyi.top/2020/09/10/910/</id>
+    <link href="https://www.trann.cn/2020/09/10/910/"/>
+    <id>https://www.trann.cn/2020/09/10/910/</id>
     <published>2020-09-09T16:52:56.000Z</published>
     <updated>2020-09-10T05:10:21.936Z</updated>
     
@@ -65,19 +65,19 @@
     
     
     
-    <category term="记录" scheme="https://hexo.flyyi.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://www.trann.cn/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="升级" scheme="https://hexo.flyyi.top/tags/%E5%8D%87%E7%BA%A7/"/>
+    <category term="升级" scheme="https://www.trann.cn/tags/%E5%8D%87%E7%BA%A7/"/>
     
   </entry>
   
   <entry>
     <title>C语言简单练习</title>
-    <link href="https://hexo.flyyi.top/2020/09/08/c2/"/>
-    <id>https://hexo.flyyi.top/2020/09/08/c2/</id>
+    <link href="https://www.trann.cn/2020/09/08/c2/"/>
+    <id>https://www.trann.cn/2020/09/08/c2/</id>
     <published>2020-09-07T16:35:01.000Z</published>
     <updated>2020-09-10T05:11:36.151Z</updated>
     
@@ -92,21 +92,21 @@
     
     
     
-    <category term="学习" scheme="https://hexo.flyyi.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://www.trann.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="学习" scheme="https://hexo.flyyi.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://www.trann.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="C语言" scheme="https://hexo.flyyi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="C语言" scheme="https://www.trann.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
     
-    <category term="编程" scheme="https://hexo.flyyi.top/tags/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://www.trann.cn/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>C语言基础学习</title>
-    <link href="https://hexo.flyyi.top/2020/09/07/c1/"/>
-    <id>https://hexo.flyyi.top/2020/09/07/c1/</id>
+    <link href="https://www.trann.cn/2020/09/07/c1/"/>
+    <id>https://www.trann.cn/2020/09/07/c1/</id>
     <published>2020-09-06T17:13:21.000Z</published>
     <updated>2020-09-10T05:18:55.775Z</updated>
     
@@ -121,23 +121,23 @@
     
     
     
-    <category term="学习" scheme="https://hexo.flyyi.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://www.trann.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="学习" scheme="https://hexo.flyyi.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://www.trann.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="C语言" scheme="https://hexo.flyyi.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="C语言" scheme="https://www.trann.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
     
-    <category term="编程" scheme="https://hexo.flyyi.top/tags/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://www.trann.cn/tags/%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="计算机" scheme="https://hexo.flyyi.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <category term="计算机" scheme="https://www.trann.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>字体加载优化|解决加载字体时空白</title>
-    <link href="https://hexo.flyyi.top/2020/07/31/font/"/>
-    <id>https://hexo.flyyi.top/2020/07/31/font/</id>
+    <link href="https://www.trann.cn/2020/07/31/font/"/>
+    <id>https://www.trann.cn/2020/07/31/font/</id>
     <published>2020-07-30T18:53:49.000Z</published>
     <updated>2020-09-10T05:20:35.567Z</updated>
     
@@ -152,25 +152,25 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="字体" scheme="https://hexo.flyyi.top/tags/%E5%AD%97%E4%BD%93/"/>
+    <category term="字体" scheme="https://www.trann.cn/tags/%E5%AD%97%E4%BD%93/"/>
     
-    <category term="优化" scheme="https://hexo.flyyi.top/tags/%E4%BC%98%E5%8C%96/"/>
+    <category term="优化" scheme="https://www.trann.cn/tags/%E4%BC%98%E5%8C%96/"/>
     
-    <category term="推荐" scheme="https://hexo.flyyi.top/tags/%E6%8E%A8%E8%8D%90/"/>
+    <category term="推荐" scheme="https://www.trann.cn/tags/%E6%8E%A8%E8%8D%90/"/>
     
-    <category term="速度" scheme="https://hexo.flyyi.top/tags/%E9%80%9F%E5%BA%A6/"/>
+    <category term="速度" scheme="https://www.trann.cn/tags/%E9%80%9F%E5%BA%A6/"/>
     
   </entry>
   
   <entry>
     <title>V2Ray教程</title>
-    <link href="https://hexo.flyyi.top/2020/07/30/v2ray/"/>
-    <id>https://hexo.flyyi.top/2020/07/30/v2ray/</id>
+    <link href="https://www.trann.cn/2020/07/30/v2ray/"/>
+    <id>https://www.trann.cn/2020/07/30/v2ray/</id>
     <published>2020-07-30T14:39:58.000Z</published>
     <updated>2020-09-10T05:21:47.988Z</updated>
     
@@ -185,21 +185,21 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="V2Ray" scheme="https://hexo.flyyi.top/tags/V2Ray/"/>
+    <category term="V2Ray" scheme="https://www.trann.cn/tags/V2Ray/"/>
     
-    <category term="科学上网" scheme="https://hexo.flyyi.top/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    <category term="科学上网" scheme="https://www.trann.cn/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
   <entry>
     <title>Hexo踩坑|解决本地预览与部署后效果不同</title>
-    <link href="https://hexo.flyyi.top/2020/07/28/caikeng/"/>
-    <id>https://hexo.flyyi.top/2020/07/28/caikeng/</id>
+    <link href="https://www.trann.cn/2020/07/28/caikeng/"/>
+    <id>https://www.trann.cn/2020/07/28/caikeng/</id>
     <published>2020-07-28T08:33:14.000Z</published>
     <updated>2020-07-28T08:55:47.005Z</updated>
     
@@ -214,27 +214,27 @@
     
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/categories/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/categories/%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="踩坑" scheme="https://hexo.flyyi.top/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://www.trann.cn/tags/%E8%B8%A9%E5%9D%91/"/>
     
-    <category term="Hexo" scheme="https://hexo.flyyi.top/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.trann.cn/tags/Hexo/"/>
     
-    <category term="经验" scheme="https://hexo.flyyi.top/tags/%E7%BB%8F%E9%AA%8C/"/>
+    <category term="经验" scheme="https://www.trann.cn/tags/%E7%BB%8F%E9%AA%8C/"/>
     
-    <category term="CDN" scheme="https://hexo.flyyi.top/tags/CDN/"/>
+    <category term="CDN" scheme="https://www.trann.cn/tags/CDN/"/>
     
-    <category term="记录" scheme="https://hexo.flyyi.top/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://www.trann.cn/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>各种样式使用说明</title>
-    <link href="https://hexo.flyyi.top/2020/07/25/wgbq/"/>
-    <id>https://hexo.flyyi.top/2020/07/25/wgbq/</id>
+    <link href="https://www.trann.cn/2020/07/25/wgbq/"/>
+    <id>https://www.trann.cn/2020/07/25/wgbq/</id>
     <published>2020-07-25T07:01:07.000Z</published>
     <updated>2020-07-26T12:26:33.346Z</updated>
     
@@ -249,19 +249,19 @@
     
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/categories/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/categories/%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="外挂标签" scheme="https://hexo.flyyi.top/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://www.trann.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>主题更新至3.0.0 RC1</title>
-    <link href="https://hexo.flyyi.top/2020/07/22/gengxin/"/>
-    <id>https://hexo.flyyi.top/2020/07/22/gengxin/</id>
+    <link href="https://www.trann.cn/2020/07/22/gengxin/"/>
+    <id>https://www.trann.cn/2020/07/22/gengxin/</id>
     <published>2020-07-22T13:42:58.000Z</published>
     <updated>2020-07-22T16:49:37.575Z</updated>
     
@@ -276,17 +276,17 @@
     
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/categories/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/categories/%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="主题" scheme="https://hexo.flyyi.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://www.trann.cn/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>使用Docker安装Wine-CoolQ，酷Q机器人</title>
-    <link href="https://hexo.flyyi.top/2020/06/11/kuq/"/>
-    <id>https://hexo.flyyi.top/2020/06/11/kuq/</id>
+    <link href="https://www.trann.cn/2020/06/11/kuq/"/>
+    <id>https://www.trann.cn/2020/06/11/kuq/</id>
     <published>2020-06-11T15:55:13.000Z</published>
     <updated>2020-06-11T17:39:39.762Z</updated>
     
@@ -301,17 +301,17 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="QQ机器人" scheme="https://hexo.flyyi.top/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <category term="QQ机器人" scheme="https://www.trann.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
   </entry>
   
   <entry>
     <title>开学啦！不定时更新！</title>
-    <link href="https://hexo.flyyi.top/2020/05/19/kaixue/"/>
-    <id>https://hexo.flyyi.top/2020/05/19/kaixue/</id>
+    <link href="https://www.trann.cn/2020/05/19/kaixue/"/>
+    <id>https://www.trann.cn/2020/05/19/kaixue/</id>
     <published>2020-05-18T16:26:17.000Z</published>
     <updated>2020-05-18T16:58:33.882Z</updated>
     
@@ -326,17 +326,17 @@
     
     
     
-    <category term="记录" scheme="https://hexo.flyyi.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://www.trann.cn/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="开学" scheme="https://hexo.flyyi.top/tags/%E5%BC%80%E5%AD%A6/"/>
+    <category term="开学" scheme="https://www.trann.cn/tags/%E5%BC%80%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>小站的一些升级改造</title>
-    <link href="https://hexo.flyyi.top/2020/05/17/updata/"/>
-    <id>https://hexo.flyyi.top/2020/05/17/updata/</id>
+    <link href="https://www.trann.cn/2020/05/17/updata/"/>
+    <id>https://www.trann.cn/2020/05/17/updata/</id>
     <published>2020-05-16T19:03:05.000Z</published>
     <updated>2020-07-26T12:29:59.461Z</updated>
     
@@ -351,17 +351,17 @@
     
     
     
-    <category term="记录" scheme="https://hexo.flyyi.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://www.trann.cn/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="升级" scheme="https://hexo.flyyi.top/tags/%E5%8D%87%E7%BA%A7/"/>
+    <category term="升级" scheme="https://www.trann.cn/tags/%E5%8D%87%E7%BA%A7/"/>
     
   </entry>
   
   <entry>
     <title>Epic重磅福利：《GTA5》本周五开始免费送</title>
-    <link href="https://hexo.flyyi.top/2020/05/15/epicgtav/"/>
-    <id>https://hexo.flyyi.top/2020/05/15/epicgtav/</id>
+    <link href="https://www.trann.cn/2020/05/15/epicgtav/"/>
+    <id>https://www.trann.cn/2020/05/15/epicgtav/</id>
     <published>2020-05-14T18:28:13.000Z</published>
     <updated>2020-07-22T17:00:58.762Z</updated>
     
@@ -376,23 +376,23 @@
     
     
     
-    <category term="单机游戏" scheme="https://hexo.flyyi.top/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/"/>
+    <category term="单机游戏" scheme="https://www.trann.cn/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/"/>
     
     
-    <category term="GTAV" scheme="https://hexo.flyyi.top/tags/GTAV/"/>
+    <category term="GTAV" scheme="https://www.trann.cn/tags/GTAV/"/>
     
-    <category term="免费" scheme="https://hexo.flyyi.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    <category term="免费" scheme="https://www.trann.cn/tags/%E5%85%8D%E8%B4%B9/"/>
     
-    <category term="白嫖" scheme="https://hexo.flyyi.top/tags/%E7%99%BD%E5%AB%96/"/>
+    <category term="白嫖" scheme="https://www.trann.cn/tags/%E7%99%BD%E5%AB%96/"/>
     
-    <category term="活动" scheme="https://hexo.flyyi.top/tags/%E6%B4%BB%E5%8A%A8/"/>
+    <category term="活动" scheme="https://www.trann.cn/tags/%E6%B4%BB%E5%8A%A8/"/>
     
   </entry>
   
   <entry>
     <title>不想用百度云，那就教你自建属于自己的云盘！</title>
-    <link href="https://hexo.flyyi.top/2020/05/14/2020-2/"/>
-    <id>https://hexo.flyyi.top/2020/05/14/2020-2/</id>
+    <link href="https://www.trann.cn/2020/05/14/2020-2/"/>
+    <id>https://www.trann.cn/2020/05/14/2020-2/</id>
     <published>2020-05-13T18:03:20.000Z</published>
     <updated>2020-05-16T12:36:45.702Z</updated>
     
@@ -407,17 +407,17 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="私人云盘" scheme="https://hexo.flyyi.top/tags/%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/"/>
+    <category term="私人云盘" scheme="https://www.trann.cn/tags/%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/"/>
     
   </entry>
   
   <entry>
     <title>Linux指令大全！大大全！</title>
-    <link href="https://hexo.flyyi.top/2020/05/13/2020-05-13/"/>
-    <id>https://hexo.flyyi.top/2020/05/13/2020-05-13/</id>
+    <link href="https://www.trann.cn/2020/05/13/2020-05-13/"/>
+    <id>https://www.trann.cn/2020/05/13/2020-05-13/</id>
     <published>2020-05-13T15:47:30.000Z</published>
     <updated>2020-05-16T18:24:01.306Z</updated>
     
@@ -432,17 +432,17 @@
     
     
     
-    <category term="Linux" scheme="https://hexo.flyyi.top/categories/Linux/"/>
+    <category term="Linux" scheme="https://www.trann.cn/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://hexo.flyyi.top/tags/Linux/"/>
+    <category term="Linux" scheme="https://www.trann.cn/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>我的世界mod安装教程</title>
-    <link href="https://hexo.flyyi.top/2020/05/01/MC%20mod/"/>
-    <id>https://hexo.flyyi.top/2020/05/01/MC%20mod/</id>
+    <link href="https://www.trann.cn/2020/05/01/MC%20mod/"/>
+    <id>https://www.trann.cn/2020/05/01/MC%20mod/</id>
     <published>2020-05-01T07:05:08.000Z</published>
     <updated>2020-07-22T17:01:18.715Z</updated>
     
@@ -457,21 +457,21 @@
     
     
     
-    <category term="我的世界" scheme="https://hexo.flyyi.top/categories/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    <category term="我的世界" scheme="https://www.trann.cn/categories/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="我的世界" scheme="https://hexo.flyyi.top/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    <category term="我的世界" scheme="https://www.trann.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
     
-    <category term="MOD" scheme="https://hexo.flyyi.top/tags/MOD/"/>
+    <category term="MOD" scheme="https://www.trann.cn/tags/MOD/"/>
     
   </entry>
   
   <entry>
     <title>使用GitHub+jsDeliver创建高速图床</title>
-    <link href="https://hexo.flyyi.top/2020/04/24/github%20pic/"/>
-    <id>https://hexo.flyyi.top/2020/04/24/github%20pic/</id>
+    <link href="https://www.trann.cn/2020/04/24/github%20pic/"/>
+    <id>https://www.trann.cn/2020/04/24/github%20pic/</id>
     <published>2020-04-24T07:10:07.000Z</published>
     <updated>2020-05-16T17:21:47.605Z</updated>
     
@@ -486,21 +486,21 @@
     
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://hexo.flyyi.top/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.trann.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="图床" scheme="https://hexo.flyyi.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="图床" scheme="https://www.trann.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
-    <category term="分享" scheme="https://hexo.flyyi.top/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="分享" scheme="https://www.trann.cn/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>欢迎来到小新的Blog</title>
-    <link href="https://hexo.flyyi.top/2020/04/22/oneblog/"/>
-    <id>https://hexo.flyyi.top/2020/04/22/oneblog/</id>
+    <link href="https://www.trann.cn/2020/04/22/oneblog/"/>
+    <id>https://www.trann.cn/2020/04/22/oneblog/</id>
     <published>2020-04-21T17:44:00.000Z</published>
     <updated>2020-05-16T17:42:03.597Z</updated>
     
@@ -515,10 +515,10 @@
     
     
     
-    <category term="记录" scheme="https://hexo.flyyi.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://www.trann.cn/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Blog" scheme="https://hexo.flyyi.top/tags/Blog/"/>
+    <category term="Blog" scheme="https://www.trann.cn/tags/Blog/"/>
     
   </entry>
   
