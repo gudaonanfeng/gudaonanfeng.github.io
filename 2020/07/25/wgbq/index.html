@@ -265,7 +265,7 @@
   function initWaline () {
     let initData = {
       el: '#waline-wrap',
-      serverURL: 'https://continue.vercel.app',
+      serverURL: 'https://blog-pl-5omzsaqno-gudaonanfeng.vercel.app/',
       placeholder: '想说啥就说啥吧！',//评论背景文字
       uploadImage: 'https://darkperson.org/go.html?url=https://api.uomg.com/api/image.baidu',
       avatar: 'monsterid',
@@ -346,7 +346,7 @@ if ('Waline' === 'Waline' || !false) {
     const loadWaline = () => {
       Waline.Widget.RecentComments({
         el: '#card-newest-comments .aside-list',
-        serverURL: 'https://continue.vercel.app',
+        serverURL: 'https://blog-pl-5omzsaqno-gudaonanfeng.vercel.app/',
         count: 6
       }).then(comments => {
         const walineArray = comments.map(function (e) {
